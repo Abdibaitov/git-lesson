@@ -5,7 +5,10 @@ public class Main {
         System.out.println("Hello world!");
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Age is: "+a);
 
+        String name= scanner.nextLine();
+        System.out.println("Your name is: "+name);
     }
 }
