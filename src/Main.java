@@ -10,5 +10,12 @@ public class Main {
 
         String name= scanner.nextLine();
         System.out.println("Your name is: "+name);
+
+        sum(4,5);
+
+    }
+
+    public static void sum(int a, int b){
+        System.out.println(a+b);
     }
 }
